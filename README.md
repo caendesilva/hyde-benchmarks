@@ -9,6 +9,9 @@ Just a sample project to run benchmarks on.
 ```bash
 composer install
 php bin/setup.php
+
+# Run the build command once to generate the cache
+php hyde build
 ```
 
 ### Run the benchmarks
