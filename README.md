@@ -1,6 +1,6 @@
 # HydePHP - Benchmarks
 
-Just a sample project to run benchmarks on.
+Just a sample project to run benchmarks on. The goal of this branch is to see the average time it takes to compile a page.
 
 ## Usage
 
