@@ -11,9 +11,9 @@ $words = 0;
 $carbon = \Carbon\Carbon::parse('2024-01-01 12:00:00');
 
 $loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit neque. Curabitur ac fringilla turpis.';
-$body = str_repeat($loremIpsum . "\n\n", 100);
+$body = str_repeat($loremIpsum . "\n\n", 1000);
 
-for ($i = 0; $i < 100; $i++) {
+for ($i = 0; $i < 1000; $i++) {
     $markdown = <<<EOF
     ---
     title: 'Post $i'
@@ -61,7 +61,7 @@ for ($i = 0; $i < 100; $i++) {
     
     EOF;
 
-    $types = ['_pages' => 'page', '_posts' => 'post', '_docs' => 'documentation'];
+    $types = ['_pages' => 'page'];
 
     foreach ($types as $type => $prefix) {
         file_put_contents(__DIR__ . "/../$type/{$prefix}-$i.md", $markdown);
