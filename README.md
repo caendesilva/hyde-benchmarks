@@ -31,10 +31,10 @@ Words written: 48,085,000
 (about 192,340 pages of text, which equals to 481 novels)
 Time taken: 4,425.23 ms
 
-All done! Finished in 335.09 seconds (335,090.99ms) with 330.67MB peak memory usage
+All done! Finished in 326.47 seconds (326,472.91ms) with 330.67MB peak memory usage
 Congratulations! 🎉 Your static site has been built!
 
-335.09099ms per page
+326.47291ms per page
 
 
 ### Analysis
