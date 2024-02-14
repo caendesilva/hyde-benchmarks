@@ -8,12 +8,15 @@ $filesCreated = 0;
 $bytesWritten = 0;
 $words = 0;
 
+$bodyLines = 1000;
+$fileCount = 1000;
+
 $carbon = \Carbon\Carbon::parse('2024-01-01 12:00:00');
 
 $loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit neque. Curabitur ac fringilla turpis.';
-$body = str_repeat($loremIpsum . "\n\n", 1000);
+$body = str_repeat($loremIpsum . "\n\n", $bodyLines);
 
-for ($i = 0; $i < 1000; $i++) {
+for ($i = 0; $i < $fileCount; $i++) {
     $markdown = <<<EOF
     ---
     title: 'Post $i'
