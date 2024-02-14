@@ -11,6 +11,9 @@ $words = 0;
 $bodyLines = 1000;
 $fileCount = 1000;
 
+$filesystem = new \Illuminate\Filesystem\Filesystem();
+$filesystem->cleanDirectory(__DIR__ . '/../_pages');
+
 $carbon = \Carbon\Carbon::parse('2024-01-01 12:00:00');
 
 $loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit neque. Curabitur ac fringilla turpis.';
