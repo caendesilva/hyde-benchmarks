@@ -9,7 +9,7 @@ $bytesWritten = 0;
 $words = 0;
 
 $bodyLines = 1000;
-$fileCount = 100;
+$fileCount = 1000;
 
 $filesystem = new \Illuminate\Filesystem\Filesystem();
 $filesystem->cleanDirectory(__DIR__ . '/../_pages');
