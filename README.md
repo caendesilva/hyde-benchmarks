@@ -37,7 +37,12 @@ Running the build command with a dataset of 300 pages.
 
 #### System:
 
-Windows 10 Pro Workstation - AMD Ryzen 7 1800X Eight-Core/Sixteen-thread Processor @ 3,60 GHz (PHP 8.1.10)
+```
+Windows 10 Pro Workstation 
+AMD Ryzen 7 1800X Eight-Core/Sixteen-thread Processor @ 3,60 GHz
+KINGSTON SA400S37120G SSD
+PHP 8.1.10 CLI
+```
 
 #### Results:
 
