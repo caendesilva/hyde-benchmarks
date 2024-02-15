@@ -81,5 +81,10 @@ Avg.  iteration time:   3480.23400307ms
 Pages per iteration:    300
 ```
 
-Summary: 11.60078 milliseconds average per page
+### Benchmark result comparisons 
+
+| System                    | Total pages generated | Total Execution Time (ms) | Avg. Time per Page (ms) |
+|---------------------------|-----------------------|---------------------------|-------------------------|
+| Windows Ryzen Workstation | 1500                  | 84680.56                  | 56.45                   |
+| Apple Silicon M2 Pro MBP  | 1500                  | 17401.17                  | 11.60                   |
 
