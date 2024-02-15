@@ -29,7 +29,7 @@ php bin/benchmark.php
 
 ## Result overviews
 
-### Workstation (https://github.com/hydephp/hyde-benchmarks/issues/1)
+### Workstation (https://github.com/caendesilva/hyde-benchmarks/issues/1)
 
 #### Test abstract:
 
@@ -56,7 +56,7 @@ Pages per iteration:    300
 Summary: 56.4537053 milliseconds average per page
 
 
-### Apple Silicon M2 Pro MBP (https://github.com/hydephp/hyde-benchmarks/issues/)
+### Apple Silicon M2 Pro MBP (https://github.com/caendesilva/hyde-benchmarks/issues/2)
 
 #### Test abstract:
 
