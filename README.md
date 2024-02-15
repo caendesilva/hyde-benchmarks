@@ -54,3 +54,32 @@ Pages per iteration:    300
 ```
 
 Summary: 56.4537053 milliseconds average per page
+
+
+### Apple Silicon M2 Pro MBP (https://github.com/hydephp/hyde-benchmarks/issues/)
+
+#### Test abstract:
+
+Running the build command with a dataset of 300 pages.
+
+#### System:
+
+```
+M2 MacBook Pro
+Apple Silicon M2 Pro - 10 Cores @ 3,60 GHz
+AMD Ryzen 7 1800X Eight-Core/Sixteen-thread Processor @ 3,60 GHz
+Internal SSD
+PHP 8.3.2 CLI
+```
+
+#### Results:
+
+```
+Total iterations:       5
+Total execution time:   17401.17ms
+Avg.  iteration time:   3480.23400307ms
+Pages per iteration:    300
+```
+
+Summary: 11.60078 milliseconds average per page
+
