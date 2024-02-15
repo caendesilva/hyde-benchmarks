@@ -2,6 +2,22 @@
 
 Just a sample project to run benchmarks on. The goal of this branch is to see the average time it takes to compile a page.
 
+
+## Benchmark result comparisons 
+
+| System                    | Total pages generated (5 iterations) | Total Execution Time (ms) | Avg. Time per Page (ms) |
+|---------------------------|-----------------------|---------------------------|-------------------------|
+| Windows Ryzen Workstation | 1500                  | 84680.56                  | 56.45                   |
+| Apple Silicon M2 Pro MBP  | 1500                  | 17401.17                  | 11.60                   |
+
+### Dataset size
+
+- Markdown files: 300 (100 markdown pages, 100 markdown posts, 100 markdown docs)
+- Total words: 1,465,500 (about 5,862 pages of text, which equals to 15 novels)
+- Total bytes: 9.37 MB (plaintext)
+- Build iterations: 5
+
+
 ## Usage
 
 ### Setup
@@ -19,13 +35,6 @@ php hyde build
 ```bash
 php bin/benchmark.php
 ```
-
-### Dataset size
-
-- Markdown files: 300 (100 markdown pages, 100 markdown posts, 100 markdown docs)
-- Total words: 1,465,500 (about 5,862 pages of text, which equals to 15 novels)
-- Total bytes: 9.37 MB (plaintext)
-
 
 ## Result overviews
 
@@ -80,11 +89,4 @@ Total execution time:   17401.17ms
 Avg.  iteration time:   3480.23400307ms
 Pages per iteration:    300
 ```
-
-### Benchmark result comparisons 
-
-| System                    | Total pages generated | Total Execution Time (ms) | Avg. Time per Page (ms) |
-|---------------------------|-----------------------|---------------------------|-------------------------|
-| Windows Ryzen Workstation | 1500                  | 84680.56                  | 56.45                   |
-| Apple Silicon M2 Pro MBP  | 1500                  | 17401.17                  | 11.60                   |
 
